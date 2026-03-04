@@ -1,0 +1,129 @@
+.todo__alert {
+    background-color: #d1e7dd;
+}
+
+.todo__alert--success {
+    color: #0f5132;
+    border: 1px solid #badbcc;
+    padding: 8px 16px;
+}
+.todo__alert--danger {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+    padding: 10px 0;
+}
+.todo__alert--danger ul {
+    margin: 0;
+}
+
+.todo__content {
+    max-width: 70%;
+    margin: 48px auto;
+}
+
+.create-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-form__item {
+    width: 70%;
+    margin-right: 10%;
+}
+
+.create-form__item-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+}
+
+.create-form__button {
+    width: 20%;
+}
+
+.create-form__button-submit {
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-table {
+    width: 100%;
+    margin: 24px auto;
+}
+
+.todo-table__inner {
+    width: 100%;
+}
+
+.todo__content {
+    text-align: left;
+}
+
+.todo-table__header {
+    text-align: left;
+    font-weight: bold;
+    padding: 12px;
+    width: 20%;
+}
+
+.todo-table__row {
+    /* width: 100%; */
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-table__item:first-of-type {
+    width: 90%;
+    padding: 12px;
+}
+
+.update-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.update-form__item {
+    width: 80%;
+    line-height: 50%;
+}
+
+.update-form__item-input {
+    width: 100%;
+    border: none;
+    /* padding: 16px; */
+}
+
+.update-form__button {
+    width: 50px;
+}
+
+.update-form__button-submit {
+    border: none;
+    background-color: #0000ff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.delete-form__button {
+    width: 50px;
+}
+
+.delete-form__button-submit {
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+    cursor: pointer;
+}
