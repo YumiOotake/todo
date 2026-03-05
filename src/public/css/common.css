@@ -2,7 +2,10 @@
     background-color: #000;
 }
 .header__inner {
-    padding: 16px 8px;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header__logo {
     color: #fff;
@@ -10,4 +13,9 @@
     font-weight: bold;
     font-size: 24px;
 
+}
+.header__nav-link {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
 }
